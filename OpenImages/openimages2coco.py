@@ -111,7 +111,7 @@ for fid in folder_ids:
             openimages[image_name] = image_id          
             openimages2coco["images"].append({
                 "dataset": "openimages",
-                "filename": "train_" + fid + "/" + image_name + ".jpg",
+                "file_name": "train_" + fid + "/" + image_name + ".jpg",
                 "height": segm['size'][0],
                 "width": segm['size'][1],
                 "id": image_id
